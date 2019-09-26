@@ -1,0 +1,9 @@
+
+def FahrenheitToCelsius(Fahrenheit):
+    cel = (Fahrenheit - 32) * 5/9
+    return cel
+Fahrenheit = float(imput("enter the Fahrenheit here:"))
+print("In Celsius the degree is:",FahrenheitToCelsius(Fahrenheit))
+ 
+
+

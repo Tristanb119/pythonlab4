@@ -1,0 +1,12 @@
+
+def CalculateMilesPerGallon(Miles,Gallons):
+    MilesPerGallon = Miles/Gallons
+    return MilesPerGallon
+Miles = float(imput("enter your miles driven:"))
+Gallons = float(imput("enter your gallons used:"))
+print("your miles per gallon is:" CalculateMilesPerGallon(Miles,Gallons))
+
+
+
+
+

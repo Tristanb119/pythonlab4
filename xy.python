@@ -1,0 +1,11 @@
+import math
+
+x,y=imput("enter 1st point of x,y here: ").split(`,`)
+x1,y1=imput("enter 2nd point of x,y here: ").split(`,`)
+
+x,y=int(x),int(y)
+x1,y1=int(x1),int(y1)
+
+distance=math,sqrt((x1-x)**2+(y1-y)**2)
+
+print("the distance between the 1st point and the 2nd point is: %.3f"%(distance))
